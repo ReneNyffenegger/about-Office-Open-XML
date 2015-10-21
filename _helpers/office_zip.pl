@@ -14,3 +14,5 @@ my $zip = new Archive::Zip;
 
 $zip -> addTree($src_dir);
 $zip -> writeToFileNamed($office_file) == AZ_OK or die "Could not write $office_file";
+
+system("$office_file");
