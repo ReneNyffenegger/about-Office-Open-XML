@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="6" uniqueCount="6">
+  <si><t>Bold</t></si>
+  <si><t>Italic</t></si>
+  <si><t>Blue</t></si>
+  <si><t>Red</t></si>
+  <si><t>Font Size 20</t></si>
+  <si><t>Courier</t> </si>
+</sst>
