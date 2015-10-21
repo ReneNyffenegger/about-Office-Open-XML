@@ -28,6 +28,12 @@ find(sub {
   my $file = $_;
   return unless -f $file;
 
+  if ($file eq 'printerSettings1.bin') {
+    unlink $file;
+    return;
+  }
+  print "$file\n";
+
   my $xml_tidy = new XML::Tidy (filename => $file);
   $xml_tidy -> tidy();
   $xml_tidy -> write();
