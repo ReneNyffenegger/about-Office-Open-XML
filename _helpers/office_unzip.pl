@@ -29,10 +29,15 @@ find(sub {
   return unless -f $file;
 
   if ($file eq 'printerSettings1.bin') {
+    print "deleting $file\n";
     unlink $file;
     return;
   }
-  print "$file\n";
+  if ($file =~ m!\.png$!) {
+    print "not processing media file $file\n";
+    return;
+  }
+# print "$file\n";
 
   my $xml_tidy = new XML::Tidy (filename => $file);
   $xml_tidy -> tidy();
@@ -47,8 +52,8 @@ find(sub {
   print $OUT $_ while <$IN>;
   close $OUT;
 
-   unlink $file;
-   move "$file.utf8", $file;
+  unlink $file;
+  move "$file.utf8", $file;
 
 }, $dest_dir);
 
