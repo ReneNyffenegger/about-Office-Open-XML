@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="13" uniqueCount="13">
+  <si>
+    <t>Tan (2)</t>
+  </si>
+  <si>
+    <t>black (1)</t>
+  </si>
+  <si>
+    <t>white (0)</t>
+  </si>
+  <si>
+    <t>Dark Blue</t>
+  </si>
+  <si>
+    <t>Blue</t>
+  </si>
+  <si>
+    <t>Red</t>
+  </si>
+  <si>
+    <t>Olive Green</t>
+  </si>
+  <si>
+    <t>Purple</t>
+  </si>
+  <si>
+    <t>Aqua</t>
+  </si>
+  <si>
+    <t>Orange</t>
+  </si>
+  <si>
+    <t>Black, lighter 50%</t>
+  </si>
+  <si>
+    <t>white, darker 15%</t>
+  </si>
+  <si>
+    <t>white, darker 5%</t>
+  </si>
+</sst>
