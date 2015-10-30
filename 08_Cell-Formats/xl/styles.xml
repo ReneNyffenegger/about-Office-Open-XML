@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac" mc:Ignorable="x14ac">
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
   <numFmts count="1">
     <numFmt numFmtId="164" formatCode="[$CHF]\ #,##0.00" />
   </numFmts>
-  <fonts count="1" x14ac:knownFonts="1">
-    <font>
-      <sz val="11" />
-      <color theme="1" />
-      <name val="Calibri" />
-      <family val="2" />
-      <scheme val="minor" />
-    </font>
+  <fonts count="1">
+    <font>    <sz val="11"/><color theme="1" /><name val="Calibri" /><family val="2" /><scheme val="minor" /></font>
   </fonts>
   <fills count="2">
     <fill>
