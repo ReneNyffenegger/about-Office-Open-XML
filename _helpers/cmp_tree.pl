@@ -20,6 +20,7 @@ my @common        = $cmp->get_intersection;
 print_only_in($dir_1, @only_in_dir_1);
 print_only_in($dir_2, @only_in_dir_2);
 
+print "\n";
 for my $file (@common) {
   print "gvim -d $dir_1\\$file $dir_2\\$file\n";
 }
@@ -48,8 +49,9 @@ sub print_only_in { # {{{
   my @only_in_dir = @_;
 
   if (@only_in_dir) {
-    print "Only in $dir\n  ";
+    print "\nOnly in $dir\n  ";
     print join "\n  ", @only_in_dir; 
+    print "\n";
   }
 
 } # }}}
