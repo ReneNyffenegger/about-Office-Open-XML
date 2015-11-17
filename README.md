@@ -4,6 +4,13 @@
 
 This is copied from `02_Fill-some-values-into-cells`, but with some number Formats added.
 
+## 08_Cell-Formats
+
+This is copied from `02_Fill-some-values-into-cells`, but added `xl/drawings/vmlDrawing1.vml`
+`<Default Extension="vml" ContentType="application/vnd.openxmlformats-officedocument.vmlDrawing" />` in `[Content_Types].xml`
+
+
+
 # Links
 
 [Creating Excel workbooks (xlsx) with PL/SQL](https://github.com/ReneNyffenegger/xlsx_writer-Oracle)
