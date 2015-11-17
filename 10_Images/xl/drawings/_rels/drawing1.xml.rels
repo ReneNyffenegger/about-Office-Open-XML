@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rel_id_foo_png" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/Foo.png" />
+  <Relationship Id="rel_id_bar_png" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="../media/Bar.png" />
+</Relationships>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+
+  <xdr:oneCellAnchor><!--{-->
+
+    <xdr:from>
+      <xdr:col   >1</xdr:col>
+      <xdr:colOff>0</xdr:colOff>
+      <xdr:row   >2</xdr:row>
+      <xdr:rowOff>0</xdr:rowOff>
+    </xdr:from>
+
+    <!-- See Points, inches and Emus: Measuring units in Office Open XML
+             https://startbigthinksmall.wordpress.com/2010/01/04/points-inches-and-emus-measuring-units-in-office-open-xml/ 
+    -->
+    <xdr:ext cx="1000000" cy="1000000"/>
+
+    <xdr:pic>
+
+      <xdr:nvPicPr>
+        <xdr:cNvPr 
+          id   ="42"
+          name ="Grafik Foo"
+          descr="foo.png"
+        />
+
+        <xdr:cNvPicPr>
+        </xdr:cNvPicPr>
+
+      </xdr:nvPicPr>
+
+      <xdr:blipFill>
+        <a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rel_id_foo_png" cstate="print" />
+      </xdr:blipFill>
+
+      <xdr:spPr>
+        <a:prstGeom prst="rect">
+        </a:prstGeom>
+      </xdr:spPr>
+    </xdr:pic>
+    <xdr:clientData />
+
+  </xdr:oneCellAnchor> <!--}-->
+
+  <xdr:twoCellAnchor editAs="oneCell"> <!--{-->
+
+    <xdr:from><xdr:col>3</xdr:col><xdr:colOff>219075</xdr:colOff><xdr:row>2</xdr:row><xdr:rowOff>85725</xdr:rowOff></xdr:from>
+    <xdr:to  ><xdr:col>4</xdr:col><xdr:colOff>409708</xdr:colOff><xdr:row>7</xdr:row><xdr:rowOff>85858</xdr:rowOff></xdr:to>
+
+    <xdr:pic>
+      <xdr:nvPicPr>
+        <xdr:cNvPr id="43" name="Grafik Bar" descr="bar.png" />
+        <xdr:cNvPicPr>
+        </xdr:cNvPicPr>
+      </xdr:nvPicPr>
+
+      <xdr:blipFill>
+        <a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rel_id_bar_png" cstate="print" />
+      </xdr:blipFill>
+      <xdr:spPr>
+        <a:prstGeom prst="rect">
+        </a:prstGeom>
+      </xdr:spPr>
+    </xdr:pic>
+    <xdr:clientData />
+  </xdr:twoCellAnchor> <!--}-->
+
+</xdr:wsDr>
