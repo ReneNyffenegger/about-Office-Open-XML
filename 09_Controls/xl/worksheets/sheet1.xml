@@ -8,5 +8,5 @@
     <row r="3" spans="1:3"></row>
   </sheetData>
   <pageMargins left="0.7" right="0.7" top="0.78740157499999996" bottom="0.78740157499999996" header="0.3" footer="0.3" />
-  <legacyDrawing r:id="rId3" />
+  <legacyDrawing r:id="rel_vml_drawing" /> <!-- The id rel_vml_drawing is also found in _rels/sheet1.xml where it points to the target ../drawings/vmlDrawing1.vml -->
 </worksheet>
