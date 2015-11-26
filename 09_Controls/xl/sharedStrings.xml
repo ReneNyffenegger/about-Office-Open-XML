@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="6" uniqueCount="6">
-  <si><t>Foo</t></si>
-  <si><t>Bar</t></si>
-  <si><t>Baz</t></si>
-  <si><t>One</t></si>
-  <si><t>Two</t></si>
-  <si><t>Three</t></si>
-</sst>
